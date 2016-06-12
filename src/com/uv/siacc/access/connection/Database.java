@@ -31,7 +31,7 @@ public class Database {
             if(connection == null) {
                 System.out.println("Connection error");
             } else {
-               System.out.println("Connection successfull");
+               System.out.println("Connection successful");
             }
             
         } catch (SQLException | ClassNotFoundException e) {
